@@ -1,8 +1,8 @@
 global:
   cloud: others
-  clusterName: <CLUSTER_NAME>
-  deploymentEnvironment: <DEPLOYMENT_ENVIRONMENT>
-otelCollectorEndpoint: ingest.{region}.signoz.cloud:443
+  clusterName: signoz-cluster-new
+  deploymentEnvironment: development
+otelCollectorEndpoint: ingest.in.signoz.cloud:443
 otelInsecure: false
 signozApiKey: <SIGNOZ_INGESTION_KEY>
 presets:
