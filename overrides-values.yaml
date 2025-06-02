@@ -1,0 +1,12 @@
+global:
+  cloud: others
+  clusterName: <CLUSTER_NAME>
+  deploymentEnvironment: <DEPLOYMENT_ENVIRONMENT>
+otelCollectorEndpoint: ingest.{region}.signoz.cloud:443
+otelInsecure: false
+signozApiKey: <SIGNOZ_INGESTION_KEY>
+presets:
+  otlpExporter:
+    enabled: true
+  loggingExporter:
+    enabled: false
