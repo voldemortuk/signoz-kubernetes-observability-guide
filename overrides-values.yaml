@@ -1,6 +1,6 @@
 global:
   cloud: others
-  clusterName: signoz-cluster-new
+  clusterName: signoz-cluster
   deploymentEnvironment: development
 otelCollectorEndpoint: ingest.in.signoz.cloud:443
 otelInsecure: false
